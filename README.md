@@ -1,1 +1,1 @@
-These are made only for practice purpose
+Practice projects to strengthen concepts
