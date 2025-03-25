@@ -1,0 +1,77 @@
+html{
+    background-image: radial-gradient(white,black);
+    height: 100%;
+}
+.heading{
+    font-weight: 900;
+    text-decoration: underline solid black ;
+    text-align: center;
+    color: antiquewhite;
+    font-size: xx-large;
+}
+.timers{
+    text-align: center;
+    font-size: 100px;
+    margin-top: 50px;
+    background-color: #00000023;
+    border: black;
+    box-shadow: 5px 5px 5px black;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+.start{
+    font-size: xx-large;
+    padding: 10px;
+    background-color: rgb(13, 232, 31,0.4);
+    box-shadow: 3px 0 5px black;
+    width: 100px;
+    margin-top: 50px;
+    cursor: pointer;
+    
+}
+.stop{
+    font-size: xx-large;
+    padding: 10px;
+    background-color: rgb(240, 0, 0,0.7);
+    box-shadow: 3px 0 5px black;
+    width: 100px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.lap{
+    font-size: xx-large;
+    padding: 10px;
+    background-color: rgb(39, 117, 219,0.7);
+    box-shadow: 3px 0 5px black;
+    width: 100px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.reset{
+    font-size: xx-large;
+    padding: 10px;
+    background-color: rgb(214, 228, 24,0.7);
+    box-shadow: 3px 0 5px black;
+    width: 120px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.start:hover{
+    filter: brightness(150%);
+}
+.stop:hover{
+    filter: brightness(150%);
+}
+.lap:hover{
+    filter: brightness(150%);
+}
+.reset:hover{
+    filter: brightness(150%);
+}
+.laps{
+    text-align: center;
+    margin-top: 30px;
+    font-size: larger;
+}

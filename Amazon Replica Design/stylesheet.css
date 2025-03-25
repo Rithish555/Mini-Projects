@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+html{
+    font-family:Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+   
+}
+body{
+    background-image: linear-gradient(#851e66,white);
+}
+:root{
+    --BGHEADCOLOR:#0f1111;
+    --FONTCOLOR:#f0f8ff;
+    --LINKCOLOR:rgb(37, 102, 152);
+}
+header{
+    background-color: var(--BGHEADCOLOR);
+    display: flex;
+    position: sticky;
+    top: 0;
+    padding-bottom: 3px;
+    z-index: 1;
+}
+
+.headerimglogo{
+    margin: 13px 0 4px 17px;
+}
+
+.headerfirstflex{
+    color:var(--FONTCOLOR);
+    margin-top: 13px;
+}
+
+.headerlocation{
+    margin: 23px 0 0 15px;
+}
+
+.headerdeliver{
+    font-size: smaller;
+    opacity: 0.7;
+}
+.headerindia{
+    font-weight: 900;
+    font-size: small;
+}
+
+.list{
+    margin: 10px 0 0 20px;
+    width: 50px;
+    height: 40px;
+    border-radius: 10px 0 0 10px;
+    padding-left: 7px;
+    padding-right: 5px;
+    background-color: #ffffffd6;
+}
+
+.textinput{
+    height: 39px;
+    width: 550px;
+    margin-top: 10px;
+    border: none;
+    padding-left: 10px;
+    font-weight: 500;
+}
+.searchlogo{
+    margin-top: 10px;
+    background-color: rgb(230, 174, 53);
+    border-radius: 0 5px 5px 0;
+}
+
+.lang{
+    background-color: var(--BGHEADCOLOR);
+    color:var(--FONTCOLOR);
+    width: 50px;
+    font-weight: 900;
+    margin: 25px 0 0 25px;
+    border: none;
+}
+
+.signin{
+    color:var(--FONTCOLOR) ;
+    margin: 13px 5px 0 15px;
+}
+
+.signin1{
+    font-size: smaller;
+    font-weight:500;
+}
+.signin2{
+    font-size:small;
+    font-weight: 600;
+}
+.cartimg{
+    margin: 7px 0 0 20px;
+}
+.similarheader{
+    display: flex;
+    background-color: #222f3d;
+    
+}
+.similarheaderelements{
+    color: var(--FONTCOLOR);
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.menubarlogo{
+    margin: 7px 0 0 20px;
+}
+ .firstlargeimg{
+    background-image: url(Images/Amazon.jpg);
+    height: 300px;
+    background-size: cover;
+}
+.lengthmsg{
+    background-color:var(--FONTCOLOR);
+    color: black;
+    text-align: center;
+    padding: 10px;
+    transform: translateY(220px);
+    margin-inline: 20px;
+    font-size: 14px;
+}
+.lengthmsg a{
+    color:var(--LINKCOLOR);
+    text-decoration: none;
+}
+.firstrowboxes{
+    display: flex;
+    margin-inline: 20px;
+    justify-content: space-between;
+    transform: translateY(-20px);
+}
+.box{
+    background-color: var(--FONTCOLOR);
+    max-width: 300px;
+    position: relative;
+    min-height: 400px;
+}
+.boximg{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 25px;
+    column-gap: 20px;
+    margin: 10px 20px;
+}
+.boxhead{
+    margin: 15px 0 0 20px;
+    font-size: x-large;
+    font-weight: 700;
+}
+.boxfoot{
+    margin: 30px 0 0 20px;
+    color: var(--LINKCOLOR);
+    font-size: small;
+    position: absolute;
+    bottom: 20px;
+}
+figcaption{
+    font-size: small;
+}
+.box3img{
+    margin: 15px 20px 0 20px;
+}
+.box4img1{
+    margin: 15px 20px 0 20px;
+}
+.box4row2img{
+    margin-inline: 20px;
+}
+.cooker{
+    margin: 0 0 15px 20px;
+    font-weight: 500;
+}
+.backtotop{
+    color: var(--FONTCOLOR);
+    background-color: #37475a;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    font-size: small;
+}
+footer{
+    background-color: #222f3d;
+}
+.footers{
+    color: var(--FONTCOLOR);
+    display: flex;
+    justify-content: space-around;
+}
+.lines{
+    margin-top: 40px 0 100px 0;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.topic{
+    font-size: large;
+    font-weight: bold;
+    opacity: 1;
+}
+.linesjunior{
+    opacity: 0.9;
+}
+footer{
+    background-color:#282a3e ;
+}
+.footers{
+    padding: 20px;
+}
+hr{
+    border-color:#282a3e;
+}
+.bottom{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+}
+.copyright{
+    background-color:var(--BGHEADCOLOR);
+    color: var(--FONTCOLOR);
+    text-align: center;
+    padding: 10px;
+    font-size: small;
+}
